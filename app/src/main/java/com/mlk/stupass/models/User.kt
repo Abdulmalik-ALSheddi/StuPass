@@ -1,9 +1,8 @@
 package com.mlk.stupass.models
 
 data class User(
-
-   private val name: String,
-   private val email: String,
-   private val phone: String,
-   private val password: String
+   val name: String = "",
+   val email: String = "",
+   val phone: String = "",
+   val password: String = ""
 )
